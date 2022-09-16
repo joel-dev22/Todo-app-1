@@ -43,8 +43,6 @@ window.addEventListener("load", () => {
     task_actions_el.appendChild(task_actions_edit);
     task_actions_el.appendChild(task_actions_delete);
 
-    localStorage.setItem("task", task_el);
-
     task_el.appendChild(task_actions_el);
 
     list_el.appendChild(task_el);
