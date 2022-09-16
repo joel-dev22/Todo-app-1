@@ -49,6 +49,8 @@ window.addEventListener("load", () => {
 
     list_el.appendChild(task_el);
 
+    console.log("This is new branch");
+
     input.value = "";
 
     task_actions_edit.addEventListener("click", () => {
